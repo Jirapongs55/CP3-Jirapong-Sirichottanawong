@@ -1,0 +1,10 @@
+firstNum = int(input("Input the 1st number :"))
+secondNum = int(input("Input the 2nd number :"))
+sumResult = firstNum + secondNum
+diffResult = firstNum - secondNum
+multiplyResult = firstNum*secondNum
+divideResult = firstNum/secondNum
+print(firstNum,"+",secondNum,"=",sumResult)
+print(firstNum,"-",secondNum,"=",diffResult)
+print(firstNum,"*",secondNum,"=",multiplyResult)
+print(firstNum,"/",secondNum,"=",int(divideResult))
